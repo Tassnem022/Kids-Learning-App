@@ -1,9 +1,9 @@
 # Kids-Learning-App
-1-Project Overview
+a-Project Overview
 
 This interactive learning application is designed to engage kids in a fun and educational way through voice recognition and interactive feedback. The app combines the power of speech recognition and deep learning to teach children about numbers, motions, and animals. With an intuitive interface, kids can actively participate by speaking their responses and receive real-time feedback for their efforts. The app includes gamified elements such as moving characters and changing images to keep the experience exciting and motivating.
 
-Features
+b-Features
 
 1-Voice-Activated Learning Modules:
 
