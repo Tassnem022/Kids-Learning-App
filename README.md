@@ -1,31 +1,63 @@
-# Kids-Learning-App
-a-Project Overview
+# 📚 Kids-Learning-App
 
-This interactive learning application is designed to engage kids in a fun and educational way through voice recognition and interactive feedback. The app combines the power of speech recognition and deep learning to teach children about numbers, motions, and animals. With an intuitive interface, kids can actively participate by speaking their responses and receive real-time feedback for their efforts. The app includes gamified elements such as moving characters and changing images to keep the experience exciting and motivating.
+An **interactive educational app** designed to engage children through **voice recognition** and **real-time feedback**. Using deep learning and gamification, the app teaches kids about **numbers**, **motions**, and **animals** in a fun and intuitive way.
 
-b-Features
+---
 
-1-Voice-Activated Learning Modules:
+## 🚀 Demo
 
-.Three main modules: Learn Numbers, Learn Motions, and Learn Animals.
-.Kids can interact with the app by speaking the answers, which are recognized using pre-trained machine learning models.
+🎥 [Watch Demo on Google Drive](https://drive.google.com/file/d/1zcCEzl31m7wtXugfqp6fDwqZU4BCrbCs/view?usp=drive_link)
 
-2-Dynamic Feedback System:
+---
 
-.Provides immediate feedback within the same frame, displaying "Correct!" in green or "Wrong, try again!" in red.
-.Updates the content dynamically when the child gives the correct response.
+## ✨ Features
 
-3-Interactive Animations:
+### 🎙️ Voice-Activated Learning Modules
+- Three engaging modules:
+  - **Learn Numbers**
+  - **Learn Motions**
+  - **Learn Animals**
+- Kids interact by speaking answers, which are recognized using **custom-trained deep learning models** built with **TensorFlow**, **CNNs**, and **Librosa**.
 
-.In the "Learn Motions" module, kids can direct a moving character (Dora) within a box by saying commands like "Up," "Down," "Left," or "Right."
+### 💬 Dynamic Feedback System
+- Instant on-screen feedback:
+  - ✅ **Correct!** displayed in green
+  - ❌ **Wrong, try again!** in red
+- Automatically updates content on correct responses.
 
-4-Kid-Friendly Interface:
+### 🧍 Interactive Animations
+- In the **Learn Motions** module, kids can control a character (**Dora**) using voice commands like:
+  - `"Up"`, `"Down"`, `"Left"`, `"Right"`
 
-.Clean and vibrant design with a background image and colorful buttons.
-.Easy-to-read text and a clear layout.
+### 🎨 Kid-Friendly Interface
+- Colorful and vibrant design
+- Simple layout with large buttons and easy-to-read text
 
-5-Gamified Elements:
+### 🎮 Gamified Elements
+- Changing images for animals and numbers after correct answers
+- Real-time animated character movement based on voice commands
 
-.Images for numbers and animals change dynamically upon correct responses to maintain engagement.
-.Real-time character movements based on voice commands in the motion learning module.
+---
 
+## 🛠️ Technologies Used
+
+- **Python**
+- **Jupyter Notebook**
+- **TensorFlow** – for building and training custom speech recognition models
+- **CNN (Convolutional Neural Networks)** – for audio classification
+- **Librosa** – for audio feature extraction and preprocessing
+- **sounddevice** – for microphone input handling 
+- **OpenCV** – for real-time image handling
+- **Pygame** – for gui, animations and rendering 
+
+---
+
+## 📦 Installation
+
+Follow these steps to set up the project locally:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/Kids-Learning-App.git
+cd Kids-Learning-App
